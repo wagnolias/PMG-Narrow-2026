@@ -3,158 +3,160 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PMG Narrow · Clicheria para rótulos e etiquetas</title>
-<meta name="description" content="PMG Narrow: clicheria do PMG Group dedicada a rótulos e etiquetas. Retículas K2 e Everest, gestão de cor com provas GMG e atendimento técnico próximo do convertedor.">
-<meta property="og:title" content="PMG Narrow · Clicheria para rótulos e etiquetas">
-<meta property="og:description" content="Clichês de banda estreita com retículas K2 e Everest, provas GMG e atendimento técnico de verdade.">
-<meta property="og:image" content="assets/hero.jpg">
-<meta name="theme-color" content="#0B1B3F">
-<link rel="icon" type="image/png" href="assets/logo-pmg-narrow.png">
+<title>PMG Narrow · Atendimento de clicheria para rótulos e etiquetas</title>
+<meta name="description" content="PMG Narrow: clicheria especializada em banda estreita, com atendimento técnico próximo para convertedores de rótulos e etiquetas. Prova de cor GMG, Sistema Kaiaki e treinamento PMG Academy.">
+<meta property="og:title" content="PMG Narrow · Atendimento de clicheria para rótulos e etiquetas">
+<meta property="og:description" content="Cada job de rótulo atendido por quem entende o seu substrato, a sua máquina e a sua marca.">
+<meta property="og:image" content="assets/narrow-loop-poster.jpg">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/png" href="assets/logo-narrow-dark.png">
 <style>
-@font-face{font-family:'Oswald';font-weight:500;font-display:swap;src:url(assets/fonts/oswald-latin-500-normal.woff2) format('woff2')}
-@font-face{font-family:'Oswald';font-weight:600;font-display:swap;src:url(assets/fonts/oswald-latin-600-normal.woff2) format('woff2')}
-@font-face{font-family:'Inter';font-weight:400;font-display:swap;src:url(assets/fonts/inter-latin-400-normal.woff2) format('woff2')}
-@font-face{font-family:'Inter';font-weight:500;font-display:swap;src:url(assets/fonts/inter-latin-500-normal.woff2) format('woff2')}
-@font-face{font-family:'Inter';font-weight:600;font-display:swap;src:url(assets/fonts/inter-latin-600-normal.woff2) format('woff2')}
-:root{
-  --navy:#0B1B3F; --navy2:#13285A; --royal:#1D4ED8; --sky:#1EA0F0; --paper:#FBFAF6; --card:#FFFFFF;
-  --txt:#0F1B36; --mut:#56607A; --line:#E6E2D8; --dmut:#B8C3DE;
-  --f-t:'Oswald','Arial Narrow',sans-serif; --f-b:'Inter',system-ui,sans-serif; --pad:clamp(16px,4vw,40px);
-}
+@font-face{font-family:'Jakarta';font-weight:400;font-display:swap;src:url(assets/fonts/plus-jakarta-sans-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Jakarta';font-weight:500;font-display:swap;src:url(assets/fonts/plus-jakarta-sans-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Jakarta';font-weight:700;font-display:swap;src:url(assets/fonts/plus-jakarta-sans-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Jakarta';font-weight:800;font-display:swap;src:url(assets/fonts/plus-jakarta-sans-latin-800-normal.woff2) format('woff2')}
+:root{--sky:#1EA0F0;--sky2:#0B86D4;--deep:#10224A;--ice:#EEF7FE;--ice2:#DCEFFD;--txt:#10224A;--mut:#5A6884;--line:#E3ECF5;--f:'Jakarta',system-ui,sans-serif;--pad:clamp(16px,4vw,40px);--r:24px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--txt);font:400 17px/1.65 var(--f-b);-webkit-font-smoothing:antialiased}
-img{display:block;max-width:100%}
+body{background:#fff;color:var(--txt);font:400 17px/1.65 var(--f);-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
 a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
-.kick{font:600 13px/1 var(--f-b);letter-spacing:.16em;text-transform:uppercase;color:var(--royal)}
-h1,h2,h3{font-family:var(--f-t);font-weight:600;line-height:1.05;letter-spacing:.005em}
-h2{font-size:clamp(34px,4.6vw,56px);margin-top:16px}
-.lead{font-size:19px;color:var(--mut);max-width:56ch;margin-top:20px}
-.btn{display:inline-flex;align-items:center;gap:10px;font:600 15px/1 var(--f-b);text-decoration:none;padding:17px 26px;border-radius:999px;border:0;cursor:pointer;transition:background .2s,box-shadow .2s}
-.btn-royal{background:var(--royal);color:#fff}.btn-royal:hover{background:#1A43BD}
-.btn-line{box-shadow:inset 0 0 0 1.5px var(--navy);color:var(--navy)}.btn-line:hover{background:#fff}
-.chev{width:9px;height:9px;border-top:2px solid currentColor;border-right:2px solid currentColor;transform:rotate(45deg)}
-.sec{padding:clamp(80px,10vw,128px) 0}
+.tag{display:inline-flex;align-items:center;gap:8px;background:var(--ice);color:var(--sky2);font:700 13px/1 var(--f);padding:9px 14px;border-radius:999px}
+.tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--sky)}
+h1,h2,h3{font-family:var(--f);font-weight:800;letter-spacing:-.025em;line-height:1.08}
+h2{font-size:clamp(32px,4.2vw,50px);margin-top:18px}
+h2 span,h1 span{color:var(--sky)}
+.lead{font-size:19px;color:var(--mut);max-width:56ch;margin-top:18px}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 15px/1 var(--f);text-decoration:none;padding:17px 26px;border-radius:999px;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn-sky{background:var(--sky);color:#fff}.btn-sky:hover{background:var(--sky2)}
+.btn-soft{background:var(--ice);color:var(--deep)}
+.arrow{width:16px;height:16px}
+.sec{padding:clamp(76px,9vw,120px) 0}
+.center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
 
 /* header */
-.top{position:sticky;top:0;z-index:20;background:var(--navy)}
+.top{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
-.top img{height:34px;width:auto}
-.nav{display:flex;align-items:center;gap:30px}
-.nav a{font:500 15px var(--f-b);text-decoration:none;color:var(--dmut)}
-.nav a:hover{color:#fff}
+.top img{height:36px;width:auto}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{font:500 15px/1 var(--f);text-decoration:none;color:var(--mut)}
+.nav a:hover{color:var(--deep)}
 .nav .btn{color:#fff;padding:12px 20px}
-.menu-btn{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer}
-.menu-btn span{display:block;width:24px;height:2px;background:#fff;margin:5px auto}
+.menu-btn{display:none;background:var(--ice);border:0;width:44px;height:44px;border-radius:12px;cursor:pointer}
+.menu-btn span{display:block;width:18px;height:2px;background:var(--deep);margin:4px auto;border-radius:2px}
 
 /* hero */
-.hero{padding:clamp(56px,8vw,104px) 0 clamp(64px,8vw,96px)}
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,6vw,80px);align-items:center}
-.hero h1{font-size:clamp(46px,6vw,84px);margin-top:20px}
-.hero h1 span{color:var(--royal)}
-.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
-.etiqueta{position:relative;background:var(--card);border-radius:28px;padding:14px;box-shadow:0 30px 60px -30px rgba(11,27,63,.35)}
-.etiqueta img,.etiqueta video{border-radius:18px;aspect-ratio:4/3.4;object-fit:cover;width:100%;display:block}
-.vid-box{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,5vw,64px);align-items:center}
-.vid-box video{width:100%;aspect-ratio:16/9;border-radius:22px;background:#000;display:block;box-shadow:0 30px 60px -30px rgba(11,27,63,.35)}
-@media (max-width:1020px){.vid-box{grid-template-columns:1fr}}
-.etiqueta::before,.etiqueta::after{content:"";position:absolute;top:50%;width:28px;height:28px;background:var(--paper);border-radius:50%;transform:translateY(-50%)}
-.etiqueta::before{left:-14px}.etiqueta::after{right:-14px}
-.selo{position:absolute;right:-10px;top:-18px;background:var(--navy);color:#fff;border-radius:50%;width:132px;height:132px;display:grid;place-items:center;text-align:center;font:600 14px/1.2 var(--f-t);letter-spacing:.06em;text-transform:uppercase;border:3px dashed rgba(255,255,255,.35);outline:6px solid var(--navy)}
-.selo b{display:block;font-size:30px;color:var(--sky)}
+.hero{background:linear-gradient(180deg,var(--ice) 0%,#fff 100%);padding:clamp(56px,7vw,96px) 0 clamp(64px,8vw,104px)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,5vw,72px);align-items:center}
+.hero h1{font-size:clamp(40px,5.6vw,70px);margin-top:22px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.media{position:relative}
+.media video{width:100%;aspect-ratio:4/4.4;object-fit:cover;border-radius:32px;box-shadow:0 40px 80px -40px rgba(16,34,74,.45)}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;background:#fff;border-radius:16px;padding:12px 16px;font:700 14px/1.2 var(--f);box-shadow:0 16px 40px -18px rgba(16,34,74,.35)}
+.chip i{width:34px;height:34px;border-radius:10px;background:var(--ice);display:grid;place-items:center;color:var(--sky2)}
+.chip i svg{width:18px;height:18px}
+.chip small{display:block;font:500 12px/1.2 var(--f);color:var(--mut)}
+.chip.c1{left:-22px;top:12%}.chip.c2{right:-18px;top:46%}.chip.c3{left:8%;bottom:-22px}
 
-/* faixa */
-.faixa{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card)}
-.faixa .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
-.faixa div{padding:26px 20px 24px 0;font-size:15px;color:var(--mut)}
-.faixa div + div{border-left:1px dashed var(--line);padding-left:24px}
-.faixa b{display:block;font:600 20px var(--f-t);color:var(--txt)}
+/* jornada */
+.journey{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:52px;counter-reset:j}
+.step{background:var(--ice);border-radius:var(--r);padding:26px 22px;position:relative;counter-increment:j}
+.step::before{content:counter(j);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--sky2);font:800 16px/1 var(--f);margin-bottom:18px}
+.step b{display:block;font:700 18px/1.3 var(--f)}
+.step p{font-size:15px;color:var(--mut);margin-top:8px;line-height:1.55}
 
-/* por que narrow */
-.why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,6vw,80px)}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.card{background:var(--card);border-radius:22px;padding:28px 26px;border:1px solid var(--line);position:relative}
-.card .ic{width:42px;height:42px;border-radius:12px;background:rgba(29,78,216,.1);display:grid;place-items:center;margin-bottom:18px}
-.card .ic svg{width:22px;height:22px;stroke:var(--royal);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.card h3{font-size:22px}
-.card p{color:var(--mut);font-size:15px;margin-top:8px}
+/* canais */
+.canais{background:var(--deep);color:#fff;border-radius:40px;margin:0 clamp(8px,2vw,24px)}
+.canais .tag{background:rgba(255,255,255,.1);color:#9FD6FA}
+.canais .lead{color:#B9C6DE}
+.ch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.ch{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:28px;text-decoration:none;transition:background .2s}
+a.ch:hover{background:rgba(255,255,255,.11)}
+.ch i{width:48px;height:48px;border-radius:14px;background:var(--sky);display:grid;place-items:center}
+.ch i svg{width:22px;height:22px;color:#fff}
+.ch b{display:block;font:700 20px/1.3 var(--f);margin-top:20px}
+.ch p{color:#B9C6DE;font-size:15px;margin-top:6px}
+.ch em{display:inline-block;margin-top:16px;font:700 14px/1 var(--f);font-style:normal;color:#9FD6FA}
 
-/* tecnologias (navy) */
-.tecs{background:var(--navy);color:#fff}
-.tecs .kick{color:var(--sky)}
-.tecs .lead{color:var(--dmut)}
-.tec-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-top:56px}
-.tec{background:var(--navy2);border-radius:24px;overflow:hidden;display:flex;flex-direction:column}
-.tec figure{aspect-ratio:16/10;overflow:hidden}
-.tec figure img{width:100%;height:100%;object-fit:cover}
-.tec div{padding:26px 26px 30px}
-.tec small{font:600 12px var(--f-b);letter-spacing:.14em;text-transform:uppercase;color:var(--sky)}
-.tec h3{font-size:28px;margin-top:8px}
-.tec p{color:var(--dmut);font-size:15px;margin-top:10px}
-.tec ul{list-style:none;margin-top:14px}
-.tec li{font-size:14px;padding:8px 0;border-top:1px dashed rgba(255,255,255,.15)}
+/* rótulos */
+.apps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:48px}
+.app{border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;gap:16px;align-items:flex-start}
+.app i{flex:none;width:44px;height:44px;border-radius:12px;background:var(--ice);display:grid;place-items:center;color:var(--sky2)}
+.app i svg{width:22px;height:22px}
+.app b{display:block;font:700 17px/1.3 var(--f)}
+.app p{font-size:15px;color:var(--mut);margin-top:4px;line-height:1.5}
+.tech{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;justify-content:center}
+.tech span{background:var(--ice);border-radius:999px;padding:12px 20px;font:700 15px/1 var(--f);color:var(--deep)}
+.tech span small{font-weight:500;color:var(--mut);margin-left:6px}
 
-/* atendimento */
-.at-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,80px);align-items:center}
-.at-fotos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.at-fotos img{border-radius:22px;aspect-ratio:3/4;object-fit:cover;width:100%}
-.at-fotos img:last-child{margin-top:48px}
-.passos{list-style:none;margin-top:30px;counter-reset:p}
-.passos li{counter-increment:p;display:grid;grid-template-columns:48px 1fr;gap:14px;padding:18px 0;border-top:1px solid var(--line)}
-.passos li::before{content:counter(p);width:36px;height:36px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font:600 16px var(--f-t)}
-.passos b{display:block;font:600 19px var(--f-t)}
-.passos span{color:var(--mut);font-size:15px}
+/* academy */
+.acad{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,72px);align-items:center}
+.acad img{border-radius:32px;aspect-ratio:4/3;object-fit:cover;width:100%;height:auto}
+.checks{list-style:none;margin-top:26px;display:grid;gap:12px}
+.checks li{display:flex;gap:12px;align-items:flex-start}
+.checks li::before{content:"";flex:none;width:22px;height:22px;margin-top:2px;border-radius:50%;background:var(--ice) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230B86D4' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E") center/12px no-repeat}
 
-/* kaiaki */
-.kai{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.kai-grid{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center}
-.kai a.btn{white-space:nowrap}
+/* video */
+.vid video{width:100%;aspect-ratio:16/9;border-radius:32px;background:#000;margin-top:44px;box-shadow:0 40px 80px -40px rgba(16,34,74,.45)}
+
+/* faq */
+.faq{max-width:820px;margin:44px auto 0}
+.faq details{border-bottom:1px solid var(--line);padding:6px 0}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font:700 18px/1.4 var(--f);padding:18px 0}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:500 26px/1 var(--f);color:var(--sky)}
+.faq details[open] summary::after{content:"–"}
+.faq p{color:var(--mut);padding:0 40px 20px 0}
 
 /* contato */
-.ct-box{background:var(--navy);color:#fff;border-radius:32px;padding:clamp(28px,5vw,64px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,64px)}
-.ct-box .kick{color:var(--sky)}
-.ct-box .lead{color:var(--dmut)}
-.canais{margin-top:30px;display:grid;gap:12px}
-.canais a{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-radius:16px;background:var(--navy2);text-decoration:none}
-.canais a:hover{background:#1A3370}
-.canais small{display:block;color:var(--dmut);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
-.canais b{font:600 20px var(--f-t)}
-form{background:#fff;color:var(--txt);border-radius:22px;padding:clamp(22px,3vw,34px)}
+.ct{background:var(--ice);border-radius:40px;margin:0 clamp(8px,2vw,24px)}
+.ct-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,64px);align-items:start}
+form{background:#fff;border-radius:28px;padding:clamp(24px,3vw,36px);box-shadow:0 30px 60px -40px rgba(16,34,74,.4)}
 form h3{font-size:24px}
-label{display:block;font:600 13px var(--f-b);margin-top:16px}
-input,select,textarea{width:100%;margin-top:6px;font:400 16px var(--f-b);padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;color:var(--txt)}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--royal)}
-textarea{min-height:100px;resize:vertical}
-.f2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-form .btn{width:100%;justify-content:center;margin-top:20px}
-form .obs{font-size:13px;color:var(--mut);margin-top:10px;text-align:center}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font:700 13px/1 var(--f);margin:18px 0 8px}
+input,select,textarea{width:100%;font:400 16px/1.4 var(--f);color:var(--txt);background:#F7FAFD;border:1px solid var(--line);border-radius:14px;padding:13px 14px}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--sky);outline-offset:1px}
+form .btn{width:100%;justify-content:center;margin-top:22px}
+form small{display:block;text-align:center;color:var(--mut);font-size:13px;margin-top:12px}
+.direct{display:grid;gap:12px;margin-top:28px}
+.direct a{display:flex;gap:14px;align-items:center;background:#fff;border-radius:18px;padding:16px 18px;text-decoration:none}
+.direct i{width:42px;height:42px;border-radius:12px;background:var(--sky);display:grid;place-items:center;color:#fff;flex:none}
+.direct i svg{width:20px;height:20px}
+.direct small{display:block;font:500 13px/1 var(--f);color:var(--mut)}
+.direct b{display:block;font:700 17px/1.3 var(--f);margin-top:4px}
 
-footer{padding:40px 0;font-size:14px;color:var(--mut)}
-footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
-footer a{text-decoration:none;color:var(--royal)}
-.wa{position:fixed;right:20px;bottom:20px;z-index:30;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
-.wa svg{width:30px;height:30px;fill:#fff}
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+footer{padding:40px 0 48px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;color:var(--mut);font-size:14px}
+footer .grp{display:flex;align-items:center;gap:12px}
+footer .grp img{height:26px;width:auto}
+footer a{color:var(--sky2)}
+.wa{position:fixed;right:20px;bottom:20px;z-index:60;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.2)}
+.wa svg{width:28px;height:28px;fill:#fff}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
 
-@media (max-width:1000px){
-  .nav{position:fixed;inset:74px 0 auto;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:6px var(--pad) 22px;display:none}
-  .nav.open{display:flex}
-  .nav a{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:17px}
-  .nav .btn{margin-top:16px;justify-content:center}
-  .menu-btn{display:block}
-  .hero-grid,.why-grid,.at-grid,.ct-box,.kai-grid{grid-template-columns:1fr}
-  .faixa .wrap{grid-template-columns:1fr 1fr}
-  .faixa div,.faixa div + div{border-left:0;padding:18px 12px 18px 0;border-bottom:1px dashed var(--line)}
-  .tec-grid{grid-template-columns:1fr}
-  .selo{width:108px;height:108px;right:4px}
+@media (max-width:1020px){
+  .hero-grid,.acad,.ct-grid{grid-template-columns:1fr}
+  .journey{grid-template-columns:1fr 1fr}
+  .apps,.ch-grid{grid-template-columns:1fr 1fr}
+  .chip.c1{left:8px}.chip.c2{right:8px}
 }
-@media (max-width:620px){
-  body{font-size:16px}
-  .cards{grid-template-columns:1fr}
-  .f2{grid-template-columns:1fr}
+@media (max-width:720px){
+  .menu-btn{display:block}
+  .nav{display:none;position:absolute;top:74px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:8px var(--pad) 20px}
+  .nav.open{display:flex}
+  .nav a{padding:15px 0;border-bottom:1px solid var(--line)}
+  .nav .btn{margin-top:14px;justify-content:center;border:0}
+  .journey,.apps,.ch-grid,.row{grid-template-columns:1fr}
+  .chip{font-size:13px;padding:10px 12px}
+  .chip i{display:none}
+  .faq p{padding-right:0}
 }
 </style>
 </head>
@@ -162,165 +164,166 @@ footer a{text-decoration:none;color:var(--royal)}
 
 <header class="top">
   <div class="wrap">
-    <a href="#inicio" aria-label="PMG Narrow, início"><img src="assets/logo-pmg-narrow.png" alt="PMG Narrow Clicheria"></a>
+    <a href="#inicio" aria-label="PMG Narrow, início"><img src="assets/logo-narrow-dark.png" alt="PMG Narrow Clicheria"></a>
     <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
     <nav class="nav" id="nav" aria-label="Principal">
-      <a href="#porque">Por que a Narrow</a>
-      <a href="#tecnologias">Tecnologias</a>
       <a href="#atendimento">Atendimento</a>
-      <a class="btn btn-royal" href="#contato">Pedir orçamento</a>
+      <a href="#rotulos">Rótulos e etiquetas</a>
+      <a href="#academy">Treinamento</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a class="btn btn-sky" href="#contato">Falar com a Narrow</a>
     </nav>
   </div>
 </header>
 
-<main>
-<section class="hero" id="inicio">
+<main id="inicio">
+<section class="hero">
   <div class="wrap hero-grid">
     <div class="reveal">
-      <p class="kick">Clicheria · Banda estreita</p>
-      <h1>Clichês para rótulos que <span>vendem na gôndola.</span></h1>
-      <p class="lead">A clicheria do PMG Group dedicada a rótulos e etiquetas: retículas K2 e Everest, cor aprovada em prova GMG e um time técnico que entende o seu job antes de gravar a chapa.</p>
+      <span class="tag">Clicheria para banda estreita</span>
+      <h1>Atendimento de clicheria feito para quem <span>imprime rótulos.</span></h1>
+      <p class="lead">Na PMG Narrow, cada job de rótulo e etiqueta é conduzido por quem entende o seu substrato, a sua máquina e o padrão da sua marca. Atendimento premium, agilidade e suporte técnico de verdade.</p>
       <div class="ctas">
-        <a class="btn btn-royal" href="#contato">Pedir orçamento <i class="chev"></i></a>
-        <a class="btn btn-line" href="#tecnologias">Ver tecnologias</a>
+        <a class="btn btn-sky" href="#contato">Falar com a Narrow <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-soft" href="#atendimento">Como atendemos</a>
       </div>
     </div>
-    <div class="reveal" style="position:relative">
-      <div class="etiqueta"><video data-loop autoplay muted loop playsinline preload="metadata" poster="assets/narrow-loop-poster.jpg" aria-label="Provas de cor GMG sendo impressas e medidas na PMG Narrow"><source src="assets/narrow-loop.mp4" type="video/mp4"></video></div>
-      <div class="selo" aria-hidden="true"><span><b>100%</b>banda<br>estreita</span></div>
-    </div>
-  </div>
-</section>
-
-<div class="faixa" aria-label="Destaques">
-  <div class="wrap">
-    <div><b>Rótulos e etiquetas</b>Foco exclusivo no mercado de banda estreita</div>
-    <div><b>K2 e Everest</b>Retículas de alta resolução</div>
-    <div><b>Provas GMG</b>Cor aprovada antes da máquina</div>
-    <div><b>Sistema Kaiaki</b>Pedido e aprovação 100% online</div>
-  </div>
-</div>
-
-<section class="sec" id="porque">
-  <div class="wrap why-grid">
-    <div class="reveal">
-      <p class="kick">Por que a Narrow</p>
-      <h2>Rótulo não é embalagem pequena.</h2>
-      <p class="lead">Microtexto, degradê curto, verniz, cor de marca em papel e filme. Banda estreita pede engenharia própria. Por isso a Narrow não divide atenção com outras larguras de máquina.</p>
-    </div>
-    <div class="cards reveal">
-      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg></div><h3>Foco exclusivo</h3><p>Clicheria dedicada a rótulos e etiquetas, do arquivo à chapa.</p></div>
-      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 12h4l3-7 3 14 3-7h3"/></svg></div><h3>Gestão de cor</h3><p>Provas GMG calibradas e controle espectral antes do acerto de máquina.</p></div>
-      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><h3>Atendimento próximo</h3><p>Entender o job antes de rodar o teste. Não é atendimento de balcão.</p></div>
-      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h4"/></svg></div><h3>Pedido online</h3><p>Acompanhe OS e aprove provas pelo Sistema Kaiaki, da Tizza.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="tecs sec" id="tecnologias">
-  <div class="wrap">
-    <div class="reveal">
-      <p class="kick">Tecnologias PMG Narrow</p>
-      <h2>Detalhe fino em cada tiragem.</h2>
-      <p class="lead">K2 e Everest trabalham juntas na banda estreita: microcélulas de precisão e alta resolução, com a cor fechada antes de gravar.</p>
-    </div>
-    <div class="tec-grid reveal">
-      <article class="tec">
-        <figure><img src="assets/lupa.jpg" alt="Clichê sob lupa de inspeção" loading="lazy"></figure>
-        <div><small>K2 · Microcélulas</small><h3>Retícula de precisão</h3><p>Microcélulas para estabilidade de ponto e repetibilidade entre tiragens.</p>
-          <ul><li>Altas-luzes estáveis</li><li>Repetibilidade entre tiragens</li><li>Detalhe fino em rótulo premium</li></ul></div>
-      </article>
-      <article class="tec">
-        <figure><img src="assets/chapas.jpg" alt="Chapas fotopolímeras gravadas" loading="lazy"></figure>
-        <div><small>Everest · Alta resolução</small><h3>Retícula híbrida</h3><p>Degradês contínuos e fidelidade fotográfica para rótulos de alto padrão visual.</p>
-          <ul><li>Degradês sem degrau óptico</li><li>Resolução para detalhe fino</li><li>Estável em grandes tiragens</li></ul></div>
-      </article>
-      <article class="tec">
-        <figure><img src="assets/hero.jpg" alt="Provas de cor certificadas" loading="lazy"></figure>
-        <div><small>GMG · Colorimetria</small><h3>Provas certificadas</h3><p>Simulação da impressão flexográfica no substrato real do rótulo.</p>
-          <ul><li>Provas no substrato de rótulo</li><li>Aprovação antes do acerto</li><li>Perfis da sua máquina</li></ul></div>
-      </article>
+    <div class="media reveal">
+      <video data-loop autoplay muted loop playsinline preload="metadata" poster="assets/narrow-loop-poster.jpg" aria-label="Provas de cor sendo impressas e medidas na PMG Narrow"><source src="assets/narrow-loop.mp4" type="video/mp4"></video>
+      <div class="chip c1"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-4-7.5L21 3v5h-5"/></svg></i><div>Conversa técnica<small>antes de gravar</small></div></div>
+      <div class="chip c2"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M3 12h18"/></svg></i><div>Prova de cor GMG<small>aprovada antes da máquina</small></div></div>
+      <div class="chip c3"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></i><div>Aprovação online<small>pelo Sistema Kaiaki</small></div></div>
     </div>
   </div>
 </section>
 
 <section class="sec" id="atendimento">
-  <div class="wrap at-grid">
-    <div class="at-fotos reveal">
-      <img src="assets/treino.jpg" alt="Equipe técnica em treinamento com convertedores" loading="lazy">
-      <img src="assets/registro.jpg" alt="Conferência de registro de clichê" loading="lazy">
-    </div>
-    <div class="reveal">
-      <p class="kick">Como trabalhamos</p>
-      <h2>Do primeiro contato ao rótulo aprovado.</h2>
-      <ol class="passos">
-        <li><span><b>Entender o job</b>Substrato, máquina, anilox e o que a marca espera do rótulo.</span></li>
-        <li><span><b>Fechar a cor</b>Pré-impressão, curvas e prova GMG para aprovação.</span></li>
-        <li><span><b>Gravar e conferir</b>Gravação com as tecnologias Narrow e inspeção de cada chapa.</span></li>
-        <li><span><b>Acompanhar na máquina</b>Suporte técnico no acerto, quando precisar.</span></li>
-      </ol>
+  <div class="wrap center">
+    <span class="tag reveal">Como é ser atendido pela Narrow</span>
+    <h2 class="reveal">Do primeiro contato ao <span>rótulo aprovado</span>.</h2>
+    <p class="lead reveal">Não é atendimento de balcão. É acompanhamento técnico em cada etapa, com a mesma equipe do começo ao fim.</p>
+    <div class="journey" style="text-align:left">
+      <div class="step reveal"><b>Você chama</b><p>Pelo WhatsApp, e-mail ou direto no Sistema Kaiaki.</p></div>
+      <div class="step reveal"><b>Entendemos o job</b><p>Substrato, máquina, anilox, número de cores e o que a marca espera do rótulo.</p></div>
+      <div class="step reveal"><b>Fechamos a cor</b><p>Pré-impressão, curvas e prova de cor GMG para você aprovar com segurança.</p></div>
+      <div class="step reveal"><b>Gravamos e conferimos</b><p>Gravação com tecnologia de clichê para banda estreita e inspeção de cada chapa.</p></div>
+      <div class="step reveal"><b>Seguimos junto</b><p>Suporte técnico no acerto de máquina, quando você precisar.</p></div>
     </div>
   </div>
 </section>
 
-<section class="sec" id="video" style="padding-bottom:0">
-  <div class="wrap vid-box">
-    <div class="reveal">
-      <p class="kick">Em 30 segundos</p>
-      <h2>Conheça a PMG Narrow.</h2>
-      <p class="lead">Clicheria especializada em banda estreita: tecnologia no clichê, atendimento premium e treinamento técnico para convertedores de rótulos.</p>
+<section class="sec canais">
+  <div class="wrap">
+    <span class="tag reveal">Canais de atendimento</span>
+    <h2 class="reveal">Fale do jeito que for mais fácil para você.</h2>
+    <p class="lead reveal">Orçamento, envio de arquivo, dúvida técnica ou acompanhamento de pedido: cada canal chega ao mesmo time.</p>
+    <div class="ch-grid">
+      <a class="ch reveal" href="https://wa.me/5547991831636" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.4L3 21l2.1-5.3A8.4 8.4 0 1 1 21 11.5z"/></svg></i><b>WhatsApp</b><p>Para orçamentos, dúvidas rápidas e envio de referências.</p><em>(47) 9 9183-1636 →</em></a>
+      <a class="ch reveal" href="mailto:suporte@pmgflexo.com.br"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></i><b>E-mail</b><p>Para arquivos, especificações técnicas e documentação.</p><em>suporte@pmgflexo.com.br →</em></a>
+      <a class="ch reveal" href="https://wagnolias.github.io/PMG-Tizza-2026/" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></i><b>Sistema Kaiaki</b><p>Para acompanhar a OS e aprovar artes e provas online, a qualquer hora.</p><em>Conhecer o Kaiaki →</em></a>
     </div>
+  </div>
+</section>
+
+<section class="sec" id="rotulos">
+  <div class="wrap center">
+    <span class="tag reveal">Rótulos e etiquetas</span>
+    <h2 class="reveal">Rótulo não é <span>embalagem pequena</span>.</h2>
+    <p class="lead reveal">Microtexto, degradê curto, cor de marca em papel e filme. Banda estreita pede um cuidado próprio, e é só isso que a Narrow faz.</p>
+    <div class="apps" style="text-align:left">
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16M6 11v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8M8 11V7a4 4 0 0 1 8 0v4"/></svg></i><div><b>Alimentos</b><p>Rótulos com cor de marca consistente em toda tiragem.</p></div></div>
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6M10 2v4l-3 4v11a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V10l-3-4V2"/></svg></i><div><b>Bebidas</b><p>Detalhe fino e acabamento para gôndola e geladeira.</p></div></div>
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="8" height="14" rx="2"/><path d="M10 8V5h4v3M11 2h2"/></svg></i><div><b>Cosméticos e higiene</b><p>Degradês suaves e microtexto legível.</p></div></div>
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10l-1 5H8zM8 8l-2 13h12L16 8"/></svg></i><div><b>Limpeza</b><p>Rótulos resistentes para o dia a dia do produto.</p></div></div>
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12 12 20l-8-8V4h8z"/><circle cx="8.5" cy="8.5" r="1.5"/></svg></i><div><b>Etiquetas adesivas</b><p>Etiquetas de identificação e promoção.</p></div></div>
+      <div class="app reveal"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg></i><div><b>Rótulos premium</b><p>Para marcas que exigem alto padrão visual.</p></div></div>
+    </div>
+    <p class="lead reveal" style="margin-top:56px;font-size:16px">Tecnologia no clichê</p>
+    <div class="tech reveal"><span>Glaciar</span><span>Everest</span><span>K2</span><span>Prova GMG <small>colorimetria</small></span></div>
+  </div>
+</section>
+
+<section class="sec" id="academy" style="padding-top:0">
+  <div class="wrap acad">
+    <img class="reveal" src="assets/treino.jpg" alt="Profissionais de convertedoras em treinamento técnico" loading="lazy" width="1600" height="1200">
+    <div class="reveal">
+      <span class="tag">PMG Academy</span>
+      <h2>A gente também <span>treina a sua equipe</span>.</h2>
+      <p class="lead">Programas de treinamento e certificação técnica voltados para padronização de processo e alta performance na impressão flexográfica.</p>
+      <ul class="checks">
+        <li>Turmas para operadores e equipe de pré-impressão</li>
+        <li>Padronização de processo entre turnos e máquinas</li>
+        <li>Conteúdo técnico aplicado ao dia a dia da banda estreita</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec vid" style="padding-top:0">
+  <div class="wrap center">
+    <span class="tag reveal">Em 30 segundos</span>
+    <h2 class="reveal">Conheça a <span>PMG Narrow</span>.</h2>
     <video class="reveal" controls preload="none" playsinline poster="assets/narrow-institucional-poster.jpg"><source src="assets/narrow-institucional.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
   </div>
 </section>
 
-<section class="kai sec" style="padding:56px 0">
-  <div class="wrap kai-grid reveal">
-    <div><p class="kick">Sistema Kaiaki</p><h2 style="font-size:clamp(28px,3.4vw,40px)">Peça, acompanhe e aprove online.</h2><p class="lead" style="margin-top:12px">Status da OS em tempo real, aprovação remota de artes e provas e acervo em nuvem, desenvolvido pela Tizza Tecnologia.</p></div>
-    <a class="btn btn-line" href="https://wagnolias.github.io/PMG-Tizza-2026/">Conhecer o Kaiaki <i class="chev"></i></a>
+<section class="sec" id="duvidas" style="padding-top:0">
+  <div class="wrap center">
+    <span class="tag reveal">Dúvidas frequentes</span>
+    <h2 class="reveal">Antes de chamar a gente.</h2>
+    <div class="faq" style="text-align:left">
+      <details class="reveal"><summary>A Narrow atende só banda estreita?</summary><p>Sim. A PMG Narrow é dedicada a rótulos e etiquetas. Para embalagens flexíveis de banda larga, o atendimento é da PMG Flexo, empresa do mesmo grupo.</p></details>
+      <details class="reveal"><summary>Como envio o meu arquivo?</summary><p>Pelo e-mail, pelo WhatsApp ou pelo Sistema Kaiaki. Se tiver dúvida sobre o formato, o time técnico orienta antes de começar.</p></details>
+      <details class="reveal"><summary>Consigo aprovar a cor antes da gravação?</summary><p>Sim. Fazemos prova de cor GMG, que simula a impressão flexográfica, para você aprovar antes do acerto de máquina.</p></details>
+      <details class="reveal"><summary>Como acompanho o meu pedido?</summary><p>Pelo Sistema Kaiaki, desenvolvido pela Tizza Tecnologia: status da OS em tempo real e aprovação de artes e provas online.</p></details>
+      <details class="reveal"><summary>Vocês atendem fora de São Paulo?</summary><p>Sim. O PMG Group atende convertedores em todo o Brasil. Fale com a gente e combinamos a melhor forma de envio.</p></details>
+      <details class="reveal"><summary>Qual é o prazo?</summary><p>Depende do job, da quantidade de cores e da prova. O prazo é informado junto com o orçamento.</p></details>
+    </div>
   </div>
 </section>
 
-<section class="sec" id="contato">
-  <div class="wrap">
-    <div class="ct-box reveal">
-      <div>
-        <p class="kick">Orçamento</p>
-        <h2>Conte o seu rótulo. A gente indica o caminho.</h2>
-        <p class="lead">Substrato, máquina, número de cores e o desafio da arte. O time técnico responde com a solução e o prazo.</p>
-        <div class="canais">
-          <a href="https://wa.me/5547991831636" target="_blank" rel="noopener"><span><small>WhatsApp</small><b>(47) 9 9183-1636</b></span><i class="chev"></i></a>
-          <a href="mailto:suporte@pmgflexo.com.br"><span><small>E-mail</small><b>suporte@pmgflexo.com.br</b></span><i class="chev"></i></a>
-        </div>
+<section class="sec ct" id="contato">
+  <div class="wrap ct-grid">
+    <div class="reveal">
+      <span class="tag">Fale com a Narrow</span>
+      <h2>Conte o seu rótulo. <span>A gente cuida do resto.</span></h2>
+      <p class="lead">Substrato, máquina, número de cores e o desafio da arte. O time técnico responde com a solução e o prazo.</p>
+      <div class="direct">
+        <a href="https://wa.me/5547991831636" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.5 7.4L3 21l2.1-5.3A8.4 8.4 0 1 1 21 11.5z"/></svg></i><div><small>WhatsApp</small><b>(47) 9 9183-1636</b></div></a>
+        <a href="mailto:suporte@pmgflexo.com.br"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></i><div><small>E-mail</small><b>suporte@pmgflexo.com.br</b></div></a>
       </div>
-      <form id="form" novalidate>
-        <h3>Pedir orçamento</h3>
-        <div class="f2">
-          <div><label for="nome">Nome</label><input id="nome" required autocomplete="name"></div>
-          <div><label for="empresa">Empresa</label><input id="empresa" required autocomplete="organization"></div>
-        </div>
-        <label for="interesse">Interesse</label>
-        <select id="interesse"><option>Clichês para rótulos e etiquetas</option><option>Retícula K2</option><option>Retícula Everest</option><option>Provas GMG</option><option>Acesso ao Sistema Kaiaki</option></select>
-        <label for="msg">Conte sobre o job</label>
-        <textarea id="msg" placeholder="Substrato, máquina, cores, tiragem..."></textarea>
-        <button class="btn btn-royal" type="submit">Enviar pelo WhatsApp <i class="chev"></i></button>
-        <p class="obs">Abre o WhatsApp com a mensagem pronta.</p>
-      </form>
     </div>
+    <form id="form" class="reveal" novalidate>
+      <h3>Pedir atendimento</h3>
+      <div class="row">
+        <div><label for="nome">Nome</label><input id="nome" autocomplete="name" required></div>
+        <div><label for="empresa">Empresa</label><input id="empresa" autocomplete="organization" required></div>
+      </div>
+      <label for="interesse">Assunto</label>
+      <select id="interesse">
+        <option>Orçamento de clichês para rótulos</option>
+        <option>Prova de cor GMG</option>
+        <option>Suporte técnico no acerto</option>
+        <option>Treinamento PMG Academy</option>
+        <option>Acesso ao Sistema Kaiaki</option>
+      </select>
+      <label for="msg">Conte sobre o job</label>
+      <textarea id="msg" placeholder="Substrato, máquina, número de cores, tiragem..."></textarea>
+      <button class="btn btn-sky" type="submit">Enviar pelo WhatsApp</button>
+      <small>Abre o WhatsApp com a mensagem pronta.</small>
+    </form>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>© 2026 PMG Narrow · Uma empresa do ecossistema <a href="https://wagnolias.github.io/PMG-Group-2026/">PMG Group</a></span>
-    <span>Desenvolvido pela Tizza Tecnologia</span>
+    <div class="grp"><img src="assets/pmg-group-dark.png" alt="PMG Group"><span>Uma empresa <a href="https://wagnolias.github.io/PMG-Group-2026/" target="_blank" rel="noopener">PMG Group</a></span></div>
+    <span>© 2026 PMG Narrow Clicheria</span>
   </div>
 </footer>
 
-<a class="wa" href="https://wa.me/5547991831636" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.3-4-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6C5.4 9.8 10.1 5.2 16 5.2s10.6 4.6 10.6 10.4S21.9 26.1 16 26.1zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
-</a>
+<a class="wa" href="https://wa.me/5547991831636" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
 
 <script>
 (() => {
@@ -330,15 +333,15 @@ footer a{text-decoration:none;color:var(--royal)}
   document.getElementById('form').addEventListener('submit', e => {
     e.preventDefault(); const f = e.target, n = f.querySelector('#nome'), em = f.querySelector('#empresa');
     if (!n.value.trim() || !em.value.trim()) { (n.value.trim() ? em : n).focus(); return; }
-    const t = `Olá, PMG Narrow! Sou ${n.value.trim()}, da ${em.value.trim()}.\nInteresse: ${f.querySelector('#interesse').value}\n${f.querySelector('#msg').value.trim()}`;
+    const t = `Olá, PMG Narrow! Sou ${n.value.trim()}, da ${em.value.trim()}.\nAssunto: ${f.querySelector('#interesse').value}\n${f.querySelector('#msg').value.trim()}`;
     window.open('https://wa.me/5547991831636?text=' + encodeURIComponent(t), '_blank', 'noopener');
   });
+  document.querySelectorAll('video[data-loop]').forEach(v => { if (matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute('autoplay'); v.pause(); } });
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.1});
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
   } else document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
 })();
 </script>
-<script>document.querySelectorAll('video[data-loop]').forEach(v=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause()}})</script>
 </body>
 </html>
